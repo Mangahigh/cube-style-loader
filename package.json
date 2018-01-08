@@ -19,7 +19,7 @@
     "react-dom": "16.1.1",
     "prop-types": "15.6.0",
     "loader-utils": "^1.1.0",
-    "hoist-non-react-statics": "2.3.1",
+    "hoist-non-react-statics": "2.3.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -82,6 +82,6 @@
     ]
   },
   "scripts": {
-    "grunt": "./node_modules/.bin/grunt",
+    "grunt": "./node_modules/.bin/grunt"
   }
 }
