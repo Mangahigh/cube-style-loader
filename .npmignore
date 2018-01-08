@@ -1,0 +1,5 @@
+.idea
+.travis.yml
+coverage
+test
+src

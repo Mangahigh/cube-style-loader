@@ -2,7 +2,10 @@
   "name": "prodigi-cube-style-loader",
   "version": "0.0.1",
   "description": "Webpack style loader for prodigi3",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "engines": {
     "node": ">=6.5",
     "npm": ">=3.10",
@@ -82,6 +85,6 @@
     ]
   },
   "scripts": {
-    "grunt": "./node_modules/.bin/grunt"
+    "build": "rimraf lib && babel src --out-dir lib"
   }
 }
