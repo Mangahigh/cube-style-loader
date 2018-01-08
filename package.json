@@ -1,6 +1,6 @@
 {
   "name": "prodigi-cube-style-loader",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Webpack style loader for prodigi3",
   "main": "lib/index.js",
   "files": [
@@ -21,8 +21,8 @@
     "hoist-non-react-statics": "2.3.1",
     "loader-utils": "^1.1.0",
     "prop-types": "15.6.0",
-    "react": "16.1.1",
-    "react-dom": "16.1.1",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
     "webpack": "^3.10.0"
   },
   "devDependencies": {
