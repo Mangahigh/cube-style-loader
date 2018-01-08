@@ -1,6 +1,6 @@
 {
   "name": "prodigi-cube-style-loader",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Webpack style loader for prodigi3",
   "main": "lib/index.js",
   "files": [
