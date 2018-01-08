@@ -22,7 +22,8 @@
     "loader-utils": "^1.1.0",
     "prop-types": "15.6.0",
     "react": "16.1.1",
-    "react-dom": "16.1.1"
+    "react-dom": "16.1.1",
+    "webpack": "^3.10.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -85,6 +86,7 @@
     ]
   },
   "scripts": {
-    "build": "rimraf lib && babel src --out-dir lib"
+    "clean": "rimraf lib",
+    "build": "yarn clean && babel src --out-dir lib"
   }
 }
